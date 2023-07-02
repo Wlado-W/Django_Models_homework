@@ -1,0 +1,6 @@
+CREATE TABLE STAFF (
+    staff_id int auto_increment not null,
+    full_name char(255) not null,
+    position char(255) not null,
+    labor_contract int not null,
+    );
